@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { Slider } from "@/components/layout/Slider"
+import Swipe from "@/components/layout/Swipe"
 
 export default function Home() {
   const router = useRouter();
@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <div>
-      <Slider/>
+      <Swipe/>
     </div>
   );
 }
